@@ -6,6 +6,7 @@ gemspec
 group :development, :test do
   gem 'guard-rspec', :require => false
   gem 'growl', :require => false
+  gem 'rake'
 end
 
 platforms :jruby, :ruby_18 do
