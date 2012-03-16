@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://s.m.taobao.com/search.htm?_wapprepay=1&page=1&q=dog%2520food&ttid=201200%40taobao_iphone_1.5.0&sid=if5768e20902cb87&vm=nw&forbidPic=0&_input_charset=utf-8&n=40
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - iPhone
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - !binary |-
+        bmdpbng=
+      date:
+      - !binary |-
+        RnJpLCAxNiBNYXIgMjAxMiAwNjo0NDozNyBHTVQ=
+      content-type:
+      - !binary |-
+        dGV4dC9odG1sO2NoYXJzZXQ9dXRmLTg=
+      !binary "dHJhbnNmZXItZW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      connection:
+      - !binary |-
+        Y2xvc2U=
+      !binary "dmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "eC1wb3dlcmVkLWJ5":
+      - !binary |-
+        U2VydmxldCAyLjQ7IEpCb3NzLTQuMi4yLkdBIChidWlsZDogU1ZOVGFnPUpC
+        b3NzXzRfMl8yX0dBIGRhdGU9MjAwNzEwMjIxMTM5KS9Ub21jYXQtNS41
+      !binary "eC10Yi1iZA==":
+      - !binary |-
+        QXBwbGU=
+      !binary "eC10Yi1t":
+      - !binary |-
+        aVBob25lT1MgTU1TIENsaWVudA==
+      !binary "eC10Yi1vcw==":
+      - !binary |-
+        aVBob25lIE9T
+      cache-control:
+      - !binary |-
+        bXVzdC1yZXZhbGlkYXRlLG5vLWNhY2hl
+      !binary "YWJ0ZXN0":
+      - !binary |-
+        Yg==
+      set-cookie:
+      - !binary |-
+        Y25hPVZjL3BCeGdqd0NRQ0FZUE9rQmlXcm1pVjsgRG9tYWluPXRhb2Jhby5j
+        b207IEV4cGlyZXM9RnJpLCAxNS1NYXItMjA4MCAyMjo0NDozNyBHTVQ7IFBh
+        dGg9LywgbGluZXppbmdfc2Vzc2lvbj1IVngydGZlOHVGT2JWNzliNThrTU1s
+        N3RfMTMzMTg4MDI3N18xOyBEb21haW49dGFvYmFvLmNvbTsgUGF0aD0v
+      !binary "dGJ0cmFjay1pZA==":
+      - !binary |-
+        ZHU9aWY1NzY4ZTIwOTAyY2I4Nw==
+      !binary "Y29udGVudC1sYW5ndWFnZQ==":
+      - !binary |-
+        emgtQ04=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        DQoNCnsNCgkJInRvdGFsUmVzdWx0cyI6ICIwIiAsICJpdGVtc0FycmF5Ijog
+        Ww0KXSwNCgkicGFyYW1ldGVyIjogInEiCQ0KfQ==
+    http_version: 
+  recorded_at: Fri, 16 Mar 2012 06:44:37 GMT
+recorded_with: VCR 2.0.0
